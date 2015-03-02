@@ -11,6 +11,6 @@ public class Handler implements Channel {
 
     @Override
     public void dispatch(Message message) {
-        System.out.println("dispatching : " + message.getClass());
+        System.out.println("dispatching : " + message.getType());
     }
 }

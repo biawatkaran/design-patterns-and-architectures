@@ -26,6 +26,6 @@ public class EventDispatcher implements DynamicRouter<Event>{
 
     @Override
     public void dispatch(Event message) {
-        handlers.get(message.getClass()).dispatch(message);
+        handlers.get(message.getType()).dispatch(message);
     }
 }
