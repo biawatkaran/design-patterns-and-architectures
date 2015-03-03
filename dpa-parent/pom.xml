@@ -12,6 +12,7 @@
     <modules>
         <module>event-driven-framework</module>
         <module>visitor-pattern</module>
+        <module>strategy-pattern</module>
     </modules>
 
 </project>
