@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Karandeep.biawat on 03/03/2015.
+ * Created by Karan Biawat on 03/03/2015.
  */
 public class ShoppingCart {
 
     private List<Item> items;
 
     public ShoppingCart() {
-        this.items = new ArrayList<Item>();
+        this.items = new ArrayList<>();
     }
 
     public void addItem(Item item){
